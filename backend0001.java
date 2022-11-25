@@ -26,7 +26,7 @@ public class backend0001 {
                 array[i][1]+=array[i][j];       //计算各班总成绩
             }
             class_grades+=array[i][1];
-            average[i]=(float)(array[i][1]/array[i][0]);
+            average[i]=((float)array[i][1])/array[i][0];
             System.out.print("班级"+(i+1)+"的平均成绩为:");
             System.out.printf("%.3f\n",average[i]);
         }
