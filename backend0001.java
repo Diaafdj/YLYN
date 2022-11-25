@@ -22,7 +22,7 @@ public class backend0001 {
             System.out.println("请输入"+(i+1)+"班同学的成绩(用空格隔开)");
             for(int j=2;j<temp+2;j++){
                 array[i][j]=s.nextInt();        //存储成绩
-                System.out.println(array[i][j]);
+               
                 array[i][1]+=array[i][j];       //计算各班总成绩
             }
             class_grades+=array[i][1];
