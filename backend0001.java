@@ -31,7 +31,7 @@ public class backend0001 {
             System.out.printf("%.3f\n",average[i]);
         }
         float grade_average=(float) (class_grades/person_number);
-        System.out.printf("%.3f\n",grade_average);
+        System.out.printf("年级平均分：%.3f\n",grade_average);
         return ;
     }
 }
